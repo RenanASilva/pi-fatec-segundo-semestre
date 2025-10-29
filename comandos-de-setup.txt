@@ -1,0 +1,10 @@
+Cria o ambiente virtual (o node_modules do python)
+py -m venv venv
+
+Ativa o ambiente virtual (faz o pip funcionar apenas dentro do contexto do projeto)
+call venv\Scripts\activate
+
+Instala todas as dependências do requirements.txt
+pip install -r requirements.txt
+
+dá pra fazer tudo isso na mão ou só rodar o setup.bat no cmd ou powershell
